@@ -4,8 +4,6 @@ import {useDarkMode} from './hooks/darkMode';
 
 function App() {
   const [values, setValues] = useDarkMode('darkMode', false)
-  const body = document.getElementsByTagName('Body')
-  console.log(body[0].classList.value)
   return (
     <div>
         <div className="dark-mode__toggle">
